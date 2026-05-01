@@ -1,0 +1,14 @@
+
+
+let userName: string = "Shihab";
+let age: number = 22;
+let isStudent: boolean = true;
+
+console.log(userName);
+console.log(age);
+console.log(isStudent);
+
+// output
+// Shihab
+// 22
+// true
