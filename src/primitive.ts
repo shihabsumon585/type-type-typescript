@@ -8,7 +8,3 @@ console.log(userName);
 console.log(age);
 console.log(isStudent);
 
-// output
-// Shihab
-// 22
-// true
