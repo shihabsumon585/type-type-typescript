@@ -29,3 +29,22 @@ const user2: IUserWithRole = {
     age: 23,
     role: "Admin"
 }
+
+
+type IsAdmin = boolean;
+
+const isAdmin = false;
+
+// interface: object type: array, object, function
+
+
+// function
+type Add = (num1: number, num2: number) => number;
+const add: Add = (num1, num2) => num1 + num2;
+
+// using interface
+interface IAdd {
+    (num1: number, num2: number): number
+}
+const iAdd: IAdd = (num1, num2) => num1 + num2;
+console.log(iAdd(12,32))
