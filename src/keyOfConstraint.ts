@@ -48,7 +48,7 @@ const patient = {
 }
 const cityzenship = {
     nid: 1036250619,
-    fullName: "Mohammad Shihab Sumon",
+    fullName: "Rakibul Islam",
     fullAddress: {
         villege: "Borodadpur",
         upazilla: "Gomastapur",
@@ -56,4 +56,7 @@ const cityzenship = {
     },
     nationality: "Bangladeshi"
 }
-console.log(getPropertyFromObj(user, "name"), getPropertyFromObj(patient, "isStudent"), getPropertyFromObj(cityzenship, "fullAddress"))
+
+console.log(getPropertyFromObj(user, "name"));
+console.log(getPropertyFromObj(patient, "isStudent"));
+console.log(getPropertyFromObj(cityzenship, "fullAddress"));
