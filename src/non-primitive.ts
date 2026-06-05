@@ -9,3 +9,16 @@ let coOrdinates: [number, number] = [20, 30];
 let couple: [string, string] = ["Husband", "wife"];
 
 let nameAndRoll: [string, number] = ["Md Shihab Sumon", 86];
+
+
+// reference type : object
+
+const user :{
+    firstName: string;
+    middleName?: string;
+    lastName: string;
+} = {
+    firstName: "Md",
+    // middleName: "Shihab",
+    lastName: "Sumon"
+}
