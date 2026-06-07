@@ -19,6 +19,6 @@ const user = {
     study: "Under Graduate"
 }
 
-const {study: porasuna, name: {middleName}} = user;
+const {study: porasuna, name: {middleName: majerName}} = user;
 
-console.log(middleName);
+console.log(majerName);
